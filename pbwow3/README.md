@@ -1,9 +1,9 @@
-## PBWoW 3 Style for phpBB 3.3.5
+## PBWoW 3 Style for phpBB 3.3.15
 
 Author @Paybas, @Sajaki
 
 ## requirements
-- phpBB 3.3.1 or higher
+- phpBB 3.3.15 or higher
 - pbwowExt (optional)
 
 ## Support
@@ -11,6 +11,17 @@ Author @Paybas, @Sajaki
 - https://www.phpbb.com/customise/db/style/pbwow3/support
 
 ## Changes
+3.3.15 (08-02-2026)
+- updated for phpBB 3.3.15
+- updated post display links to use AJAX anchors (viewtopic)
+- added viewtopic_body_postrow_content_before event
+- added viewtopic_body_online_list_after event
+- added forum link type detection in forumlist tooltips
+- updated jQuery fallback to 3.7.1
+- updated autocomplete attributes on login forms
+- simplified search results sort condition
+- updated IE conditional to IE 9
+
 3.3.5 (24-04-2022)
 - updated for phpBB 3.3.5
 
