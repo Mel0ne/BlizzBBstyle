@@ -1,0 +1,17 @@
+/* Link Styles
+---------------------------------------- */
+
+/* Links, arrows & text
+--------------------------------------------- */
+a 			{ color: #567A1A; }
+a:hover 	{ color: #13FF29; }
+a:active	{ color: #0DC61D; }
+
+a.topictitle,			a.forumtitle		{ color: #567A1A; }
+a.topictitle:hover,		a.forumtitle:hover	{ color: #13FF29; }
+a.topictitle:active,	a.forumtitle:active	{ color: #00D8FF; }
+
+.postlink {
+    border-bottom-color: #555555;
+}
+
