@@ -1,23 +1,26 @@
-pbwow3 Diablo
-==================
 
-phpBB 3.3 style
+## pbwow3_diablo
 
-Design by avathar.be
+Diablo III themed style with video background and custom Exocet/Reaper fonts.
 
-#### Version
-v3.1 (10/11/2017)
+Author @Paybas, @Sajaki
 
-#### Requirements
-- phpBB 3.3.0 or higher
-- pbwow3 v3.3.5 installed
+## requirements
+- pbWoW 3.3.15 Base style
+
+## Support
+- https://www.avathar.be/forum/viewforum.php?f=82
 
 ## Changes
+3.3.15 (08-02-2026)
+- updated for phpBB 3.3.15
+
 3.3.5 (24-04-2022)
 - updated for phpBB 3.3.5
 
+3.3 (10-11-2017)
+- initial release
 
 ### Copyright
 © 2015 - PayBas
 © 2017 - Sajaki
-
