@@ -3,7 +3,7 @@
 Author @Paybas, @Sajaki
 
 ## requirements
-- phpBB 3.3.1 or higher
+- phpBB 3.3.15 or higher
 - pbwowExt (optional)
 
 ## Support
@@ -11,6 +11,10 @@ Author @Paybas, @Sajaki
 - https://www.phpbb.com/customise/db/style/pbwow3/support
 
 ## Changes
+
+3.3.15 (08-02-2026)
+- updated for phpBB 3.3.15
+
 3.3.5 (24-04-2022)
 - updated for phpBB 3.3.5
 - added pbwow3_diablo
