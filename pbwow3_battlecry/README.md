@@ -4,14 +4,14 @@
 Author @Paybas, @Sajaki
 
 ## requirements
-- pbWow 3.3.5 Base style 
+- pbWow 3.3.15 Base style
 
 ## Support
 - https://www.avathar.be/forum/viewforum.php?f=82
 
 ## Changes
-3.3.5 (24-04-2022)
-- updated for phpBB 3.3.5
+3.3.15 (08-02-2026)
+- updated for phpBB 3.3.15
 
 3.3.0 (14-07-2020)
 - updated from phpBB 3.2.9 to 3.3.0 (cfg file)
