@@ -23,10 +23,10 @@
 {% endif %}
 
 <!--
-	phpBB style name: PBWoW 3.3.15
+	phpBB style name: PBWoW 3.3.16
 	Based on style:   prosilver (this is the default phpBB3 style)
 	Original author:  Tom Beddard ( http://www.subBlue.com/ )
-	Modified by: PayBas ( http://www.pbwow.com/ )
+	Modified by: PayBas
 	Maintained by: Sajaki ( https://www.avathar.be/ )
 -->
 
@@ -47,15 +47,14 @@
 </script>
 {% endif %}
 <link href="{{ T_FONT_AWESOME_LINK }}" rel="stylesheet">
-<link href="{{ ROOT_PATH }}styles/prosilver/theme/stylesheet.css?assets_version=1" rel="stylesheet">
-<link href="{{ ROOT_PATH }}styles/prosilver/theme/en/stylesheet.css?assets_version=1" rel="stylesheet">
+<link href="{{ ROOT_PATH }}styles/prosilver/theme/stylesheet.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
 
 <link href="{{ T_STYLESHEET_LINK }}" rel="stylesheet">
-<link href="{{ ROOT_PATH }}styles/pbwow3/theme/{{ T_THEME_LANG_NAME }}/stylesheet.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
+<link href="{{ T_STYLESHEET_LANG_LINK }}" rel="stylesheet">
 
 {% if S_CONTENT_DIRECTION eq 'rtl' %}
 	<link href="{{ ROOT_PATH }}styles/prosilver/theme/bidi.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
-	<link href="{{ ROOT_PATH }}styles/pbwow3/theme/bidi.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
+	<link href="{{ T_THEME_PATH }}/bidi.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
 {% endif %}
 
 {% if S_PLUPLOAD %}
@@ -65,10 +64,6 @@
 {% if S_COOKIE_NOTICE %}
 	<link href="{{ T_ASSETS_PATH }}/cookieconsent/cookieconsent.min.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
 {% endif %}
-
-<!--[if lte IE 9]>
-<link href="{{ T_THEME_PATH }}/tweaks.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
-<![endif]-->
 
 {% EVENT overall_header_head_append %}
 

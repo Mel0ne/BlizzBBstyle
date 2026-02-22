@@ -1,4 +1,4 @@
-## PBWoW 3 Style for phpBB 3.3.5
+## PBWoW 3.3.16 Style for phpBB 3.3.15
 
 Author @Paybas, @Sajaki
 
@@ -11,6 +11,20 @@ Author @Paybas, @Sajaki
 - https://www.phpbb.com/customise/db/style/pbwow3/support
 
 ## Changes
+
+3.3.16 (22-02-2026)
+- fixed hardcoded assets_version in prosilver stylesheet links (all styles)
+- removed unnecessary prosilver en/stylesheet.css (all styles)
+- removed tweaks.css IE conditional (all styles)
+- use T_STYLESHEET_LANG_LINK for language stylesheet (pbwow3)
+- use T_THEME_PATH for bidi.css (pbwow3, heroes)
+- removed empty videobg.html and unused plupload images (pbwow3)
+- updated webfont URL to jsdelivr CDN (pbwow3 simple_header, battlecry)
+- fixed broken template variable in videobg.html (tbc, xmas)
+- fixed style name in header comments (pandaria, xmas)
+- added legion, overwatch, warlords to the same fixes
+- fixed logo stretch and added missing background images (legion)
+- removed dead pbwow.com URLs from header comments and stylesheets (all styles)
 
 3.3.15 (08-02-2026)
 - updated for phpBB 3.3.15

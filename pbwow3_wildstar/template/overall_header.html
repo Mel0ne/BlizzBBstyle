@@ -25,7 +25,7 @@
 <!--
 	phpBB style name: PBWoW3 Wildstar
 	Based on style:   pbWoW3 Heroes
-	Original author:  paybas (http://www.pbwow.com)
+	Original author:  PayBas
 	Modified by Sajaki (https://www.avathar.be)
 -->
 
@@ -46,8 +46,7 @@
 </script>
 {% endif %}
 <link href="{{ T_FONT_AWESOME_LINK }}" rel="stylesheet">
-<link href="{{ ROOT_PATH }}styles/prosilver/theme/stylesheet.css?assets_version=1" rel="stylesheet">
-<link href="{{ ROOT_PATH }}styles/prosilver/theme/en/stylesheet.css?assets_version=1" rel="stylesheet">
+<link href="{{ ROOT_PATH }}styles/prosilver/theme/stylesheet.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
 <link href="{{ ROOT_PATH }}styles/pbwow3_heroes/theme/{{ T_THEME_LANG_NAME }}/stylesheet.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
 
 <link href="{{ ROOT_PATH }}styles/pbwow3_heroes/theme/base.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
@@ -74,10 +73,6 @@
 {% if S_COOKIE_NOTICE %}
 	<link href="{{ T_ASSETS_PATH }}/cookieconsent/cookieconsent.min.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
 {% endif %}
-
-<!--[if lte IE 9]>
-<link href="{{ T_THEME_PATH }}/tweaks.css?assets_version={{ T_ASSETS_VERSION }}" rel="stylesheet">
-<![endif]-->
 
 {% EVENT overall_header_head_append %}
 

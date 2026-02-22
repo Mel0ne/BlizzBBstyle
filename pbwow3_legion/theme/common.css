@@ -5,8 +5,8 @@ body {
     /* choose either one of these backgrounds */
     background: #111;
     background: #000 url("./images/illidan.jpg") no-repeat 49.999% 0;
-    background: #000 url("./images/backgreen.jpg") repeat-y 49.999% 0;
-    background: #000 url("./images/towers.jpg") no-repeat 49.999% 0;
+    /* background: #000 url("./images/backgreen.jpg") repeat-y 49.999% 0; */
+    background: #000 url("./images/towers.jpg") no-repeat fixed 49.999% 50%;
 }
 
 #wrap {
@@ -39,7 +39,7 @@ body {
     background: url("./images/logo.png") no-repeat 70% 0;
     width: 330px;
     height: 180px;
-    background-size: 100% 100%;
+    background-size: contain;
 }
 
 

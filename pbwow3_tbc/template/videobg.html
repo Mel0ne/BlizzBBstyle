@@ -4,8 +4,8 @@ jQuery(function($) {
 
 	if($(window).width() >= 1500) {
 		var v = '<video id="video-element" preload="auto" autoplay="true" loop="loop">';
-		v += '<source src="{T_THEME_PATH}/videos/tbc.mp4" type="video/mp4">';
-		v += '<source src="{T_THEME_PATH}/videos/tbc.webm" type="video/webm">';
+		v += '<source src="{{ T_THEME_PATH }}/videos/tbc.mp4" type="video/mp4">';
+		v += '<source src="{{ T_THEME_PATH }}/videos/tbc.webm" type="video/webm">';
 		v += '</video>';
 
 		var $videoContainer = $('#video-container');

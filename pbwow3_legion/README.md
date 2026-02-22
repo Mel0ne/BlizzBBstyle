@@ -12,6 +12,17 @@ Author @Sajaki
 - https://www.avathar.be/forum/viewforum.php?f=82
 
 ## Changes
+3.3.16 (22-02-2026)
+- fixed hardcoded assets_version in prosilver stylesheet link
+- removed unnecessary prosilver en/stylesheet.css
+- removed tweaks.css IE conditional
+- fixed logo stretch (background-size: contain)
+- fixed responsive logo height
+- added missing background images (towers.jpg, illidan.jpg)
+- fixed background: attachment fixed, centered vertically
+- commented out missing backgreen.jpg and bg-small.jpg references
+- removed dead pbwow.com URL from header comment and stylesheet
+
 3.3.15 (08-02-2026)
 - updated for phpBB 3.3.15 (was 3.1.9)
 - created overall_header.html with Twig syntax and correct CSS chain (prosilver > pbwow3 > legion + language CSS)

@@ -1,4 +1,4 @@
-## PBWoW 3 Style for phpBB 3.3.15
+## PBWoW 3.3.16 Style for phpBB 3.3.15
 
 Author @Paybas, @Sajaki
 
@@ -11,6 +11,16 @@ Author @Paybas, @Sajaki
 - https://www.phpbb.com/customise/db/style/pbwow3/support
 
 ## Changes
+3.3.16 (22-02-2026)
+- fixed hardcoded assets_version in prosilver stylesheet link
+- removed unnecessary prosilver en/stylesheet.css
+- use T_STYLESHEET_LANG_LINK for language stylesheet
+- use T_THEME_PATH for bidi.css
+- removed tweaks.css IE conditional (file does not exist)
+- removed empty videobg.html
+- removed unused plupload images
+- updated webfont URL in simple_header.html
+
 3.3.15 (08-02-2026)
 - updated for phpBB 3.3.15
 - updated post display links to use AJAX anchors (viewtopic)

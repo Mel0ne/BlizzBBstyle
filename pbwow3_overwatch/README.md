@@ -12,6 +12,11 @@ Author @Paybas, @Sajaki
 - https://www.avathar.be/forum/viewforum.php?f=82
 
 ## Changes
+3.3.16 (22-02-2026)
+- fixed hardcoded assets_version in prosilver stylesheet link
+- removed unnecessary prosilver en/stylesheet.css
+- removed tweaks.css IE conditional
+
 3.3.15 (08-02-2026)
 - updated for phpBB 3.3.15 (was 3.2.9)
 - fixed style comment (was "Wildstar")

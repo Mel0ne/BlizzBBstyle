@@ -132,13 +132,13 @@ body.pbwow3_legion #video-container {
 @media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
     #logo {
         width: 224px;
-        height: 104px;
+        height: 137px;
         margin-top: 10px;
     }
 }
 
 @media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
     body {
-        background-image: url("./images/bg-small.jpg");
+        /* background-image: url("./images/bg-small.jpg"); */
     }
 }
