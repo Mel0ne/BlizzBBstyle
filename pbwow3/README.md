@@ -1,4 +1,4 @@
-## PBWoW 3.3.16 Style for phpBB 3.3.15
+## PBWoW 3.3.17 Style for phpBB 3.3.15
 
 Author @Paybas, @Sajaki
 
@@ -7,10 +7,13 @@ Author @Paybas, @Sajaki
 - pbwowExt (optional)
 
 ## Support
-- http://www.avathar.be/forum/viewforum.php?f=82
+- https://www.avathar.be/forum/viewforum.php?f=82
 - https://www.phpbb.com/customise/db/style/pbwow3/support
 
 ## Changes
+3.3.17 (01-03-2026)
+- fix: restore empty videobg.html placeholder, fixing Twig LoaderError crash when video backgrounds are enabled in pbwowExt
+
 3.3.16 (22-02-2026)
 - fixed hardcoded assets_version in prosilver stylesheet link
 - removed unnecessary prosilver en/stylesheet.css
