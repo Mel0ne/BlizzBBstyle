@@ -8,7 +8,7 @@ The style is built as a child of **prosilver**. It keeps phpBB's standard markup
 
 This folder holds the **base style**. Twelve themed sub-styles in this repository build on it, so PBWoW3 must be installed before any of them.
 
-- **Version:** 3.3.20 (24-09-2026)
+- **Version:** 3.3.21 (28-09-2026)
 - **Authors:** PayBas (2015) and @Sajaki (since 2017)
 - **Live demo:** https://www.avathar.be/demoforum/app.php/guild
 
@@ -67,6 +67,10 @@ The `contrib` folder contains a PSD with the PBWoW icons, a game-icon pack, and 
 - https://www.phpbb.com/customise/db/style/pbwow3/support
 
 ## Changes
+3.3.21 (28-09-2026)
+
+- Fixed the breadcrumb structured data, which Google Search Console reported as invalid. Breadcrumb links no longer declare their own schema.org item, so each crumb now supplies its own URL and the breadcrumbs are eligible for rich results again. (#33)
+
 3.3.20 (24-09-2026)
 
 - Updated for phpBB 3.3.18. The style automatically uses prosilver's updated OAuth login template and new moderation template event; no template overrides were needed.
