@@ -10,6 +10,10 @@ Authors: @Paybas and @Sajaki
 - https://www.avathar.be/forum/viewforum.php?f=82
 
 ## Changes
+3.3.21 (28-09-2026)
+
+- Fixed the breadcrumb structured data, which Google Search Console reported as invalid. Breadcrumb links no longer declare their own schema.org item, so each crumb now supplies its own URL and the breadcrumbs are eligible for rich results again. (#33)
+
 3.3.20 (24-09-2026)
 
 - Updated for phpBB 3.3.18. The style automatically uses prosilver's updated OAuth login template and new moderation template event; no template overrides were needed.
